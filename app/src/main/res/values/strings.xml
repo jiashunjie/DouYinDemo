@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">抖音Demo</string>
+
+
+    <string name="please_enter_your_phone_number">请输入手机号</string>
+    <string name="please_enter_your_password">请输入密码</string>
+    <string name="please_enter_your_code">请输入验证码</string>
+    <string name="set_password">请设置登录密码</string>
+    <string name="please_enter_your_login_password">请输入密码(6~20位)</string>
+    <string name="please_enter_your_confirm_password">请输入确认密码(6~20位)</string>
+    <string name="password_tip">为保证您账号的安全性，密码尽量设置复杂些，如字母或数字的组合</string>
+
+    <string name="float_window_warning">当前无权限使用悬浮窗，请授权！</string>
+    <string name="error_message">出了点小问题，稍后重试</string>
+    <string name="retry">重    试</string>
+    <string name="continue_play">继续播放</string>
+    <string name="wifi_tip">您正在使用移动网络，继续播放将消耗流量</string>
+    <string name="lock_tip">请先解锁屏幕！</string>
+    <string name="unlocked">已解锁</string>
+    <string name="locked">已锁定</string>
+    <string name="replay">重新播放</string>
+    <string name="player_error_message">出了点小问题，请稍后重试</string>
+    <string name="player_retry"> 重    试 </string>
+    <string name="player_continue_play">继续播放</string>
+    <string name="player_wifi_tip">您正在使用移动网络，继续播放将消耗流量</string>
+
+
+    <string name="all_video">所有视频</string>
+
+    <string name="__picker_title">Images</string>
+    <string name="__picker_delete">Delete</string>
+    <string name="__picker_done">Done</string>
+    <string name="__picker_done_with_count">Done(%1$d/%2$d)</string>
+    <string name="__picker_image_index">%1$d/%2$d</string>
+    <string name="__picker_undo">Undo</string>
+    <string name="__picker_deleted_a_photo">Deleted a photo</string>
+    <string name="__picker_confirm_to_delete">Confirm to delete?</string>
+    <string name="__picker_yes">Yes</string>
+    <string name="__picker_cancel">Cancel</string>
+    <string name="__picker_all_image">All Images</string>
+    <string name="__picker_image_count">%1$d</string>
+    <string name="__picker_over_max_count_tips">You can only select %1$d images</string>
+</resources>

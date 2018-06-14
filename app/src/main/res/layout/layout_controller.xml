@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ImageView
+        android:id="@+id/thumb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+    <ImageView
+        android:id="@+id/iv_play"
+        android:layout_width="@dimen/player_play_btn_size"
+        android:layout_height="@dimen/player_play_btn_size"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_play_bg"
+        android:padding="@dimen/player_default_spacing"
+        android:src="@drawable/selector_play_button" />
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="@dimen/player_play_btn_size"
+        android:layout_height="@dimen/player_play_btn_size"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:indeterminateDrawable="@drawable/progress_loading"
+        tools:visibility="visible" />
+</FrameLayout>
